@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.createnotecontainer{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #fff, #434343);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+}
+.notecontnr{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.createnotecontainer h1{
+    width: fit-content;
+    height: auto;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: black;
+}
+.bitton-container{
+    width: 100%;
+    height: auto;
+    
+}
+.bitton-container button{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+.input-container-not{
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+}
+.input-container-not form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
+.input-container-not form input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+input::placeholder{
+    font-size: large;
+    font-style: italic;
+}
+.input-container-not form textarea{
+    width: 100%;
+    height: auto;padding: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0.5rem;
+}
+.display-note-contnr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    
+}
+.text-contnr{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    
+}
+.text-contnr h1{
+    font-weight: 500;
+    font-style: italic;
+}
+.text-contnr h3{
+    font-size: medium;
+    font-weight: 400;
+}
+.topic-and-delet-contnr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
